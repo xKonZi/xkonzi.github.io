@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: white;
+}
+body{
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#box{
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#box a{
+    text-decoration: none;
+}
+#scheme1, #scheme2{
+    padding: 5px 10px 5px 10px;
+}
+#scheme1{
+    padding-left: 5%;
+    float: left;
+}
+#scheme2{
+    padding-right: 10%;
+    float: right;
+}
+#scheme1 h3, #scheme2 h3{
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+}
+header{
+    clear: both;
+}
+header a{
+    text-decoration: none;
+    color: lightgray;
+}
+#logo{
+    float: left;
+}
+#logo img{
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    transition-duration: 1s;
+}
+#logo img:hover{
+    height: 180px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+}
+nav{
+    line-height: 50px;
+    padding-right: 20px;
+    float: right;
+}
+nav h3{
+    text-align: center;
+    display: inline-block;
+    color: rgb(64, 64, 102);
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    transition-duration: 1s;
+}
+nav h3:hover{
+    scale: 1.1;
+}
+#sections{
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sections .block{
+    width: 20%;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 3%;
+    margin-right: 1%;
+    transition-duration: 0.5s;
+}
+#sections .block img{
+    width: 100%;
+}
+#sections .block:hover{
+    width: 22%;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+#work{
+    height: 500px;
+    font-size: 70px;
+    text-align: center;
+}
+#sections .image{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#sections .image img{
+    width: 70%;
+    transition-duration: 1s;
+}
+#sections .image img:hover{
+    width: 72%;
+}
+article{
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+footer{
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100px;
+}
+footer h3{
+    padding-top: 30px;
+    color: lightgray;
+    text-align: center;
+}
