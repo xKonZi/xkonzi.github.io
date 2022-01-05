@@ -32,6 +32,7 @@ body{
     float: right;
 }
 #scheme1 h3, #scheme2 h3{
+    transition-duration: 0.5s;
     text-align: center;
     display: inline-block;
     width: 90px;
@@ -110,14 +111,15 @@ nav h3:hover{
     text-align: center;
 }
 #sections .image img{
-    width: 70%;
+    width: 80%;
     transition-duration: 1s;
 }
 #sections .image img:hover{
-    width: 72%;
+    width: 82%;
 }
 article{
     padding-right: 30px;
+    padding-left: 50px;
     padding-top: 20px;
     font-size: 25px;
 }
@@ -131,4 +133,129 @@ footer h3{
     padding-top: 30px;
     color: lightgray;
     text-align: center;
+}
+@media all and (max-width: 960px){
+    #sections .block{
+        width: 45%;
+        text-align: center;
+    }
+    #sections .block:hover{
+        width: 47%;
+    }
+    #sections #blockdebug{
+        clear: both;
+    }
+}
+@media all and (max-width: 895px){
+    #logo img{
+        height: 130px;
+        padding-bottom: 0px;
+    }
+    #logo img:hover{
+        height: 150px;
+    }
+    nav h3{
+        font-size: 25px;
+        padding-right: 5px;
+        margin-top: 25px;
+    }
+}
+@media all and (max-width: 750px){
+    #logo img{
+        height: 110px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+    }
+    #logo img:hover{
+        height: 130px;
+        padding-left: 20px;
+    }
+    nav h3{
+        font-size: 20px;
+        margin-top: 25px;
+    }
+}
+@media all and (max-width: 640px){
+    #logo img{
+        height: 90px;
+        padding-bottom: 0px;
+        padding-left: 40px;
+    }
+    #logo img:hover{
+        padding-top: 10px;
+        height: 100px;
+        padding-left: 30px;
+    }
+    nav h3{
+        font-size: 18px;
+        margin-top: 15px;
+        padding-right: 5px;
+        padding-left: 5px;
+        transition-duration: 0s;
+    }
+}
+@media all and (max-width: 550px){
+    #logo{
+        float: none;
+        text-align: center;
+    }
+    #logo img{
+        height: 180px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    #logo img:hover{
+        padding-top: 10px;
+        height: 190px;
+        padding-left: 0px;
+    }
+    nav{
+        clear: both;
+        float: none;
+        text-align: center;
+    }
+    nav h3{
+        line-height: 0px;
+        font-size: 26px;
+        margin-top: 0px;
+        padding-right: 2%;
+        padding-left: 2%;
+        transition-duration: 0s;
+    }
+    #sections .block{
+        width: 91%;
+        clear: both;
+        margin-bottom: 20px;
+    }
+    #sections .block:hover{
+        width: 93%;
+    }
+    footer{
+        height: 50px;
+    }
+    footer h3{
+        padding-top: 10px;
+    }
+    #box{
+        height: 30px;
+    }
+    #scheme1 h3, #scheme2 h3{
+        width: 60px;
+        font-size: 15px;
+    }
+    #sections .image img{
+        width: 90%;
+        transition-duration: 1s;
+    }
+    #sections .image img:hover{
+        width: 96%;
+    }
+    article{
+        clear: both;
+    }
+    #sections .image{
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
 }
