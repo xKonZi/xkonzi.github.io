@@ -114,6 +114,7 @@ nav h3:hover{
 #sections .image img{
     width: 80%;
     transition-duration: 1s;
+    border-radius: 15px;
 }
 #sections .image img:hover{
     width: 82%;
